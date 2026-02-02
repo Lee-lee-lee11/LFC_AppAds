@@ -6,13 +6,7 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Client_Tester",
-				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer"
+				"com.lfc.PCD_Calc"
 			]
 		},
 		{
