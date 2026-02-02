@@ -1,0 +1,44 @@
+{
+	"ads": [
+		{
+			"appId": "com.lfc.AnalogSignalCalculator",
+			"targets": [
+				"com.lfc.Modbus_Client",
+				"com.lfc.PCD_Calc"
+			]
+		},
+		{
+			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
+			"targets": [
+				"com.lfc.PCD_Calc",
+				"com.lfc.Analog_Signal_Scaling"
+			]
+		}
+	],
+	"apps": [
+		{
+			"appId": "com.lfc.PCD_Calc",
+			"name": {
+				"ko": "PCD 계산기",
+				"en": "PCD Calculator"
+			},
+			"desc": {
+				"ko": "PCD 좌표 계산",
+				"en": "PCD coordinate tool"
+			},
+			"icon": "https://.../icons/pcd.png"
+		},
+		{
+			"appId": "com.lfc.AnalogSignalCalculator",
+			"name": {
+				"ko": "아날로그 스케일링",
+				"en": "Analog Scaling"
+			},
+			"desc": {
+				"ko": "신호 변환 계산기",
+				"en": "Signal scaling tool"
+			},
+			"icon": "https://.../icons/analog.png"
+		}
+	]
+}
