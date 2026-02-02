@@ -28,7 +28,7 @@
 				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
 				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
 			},
-			"icon": "csvviewer.png"
+			"icon": "csvviewer.jpg"
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Client_Tester",
@@ -40,7 +40,7 @@
 				"ko": "Modbus TCP/IP 클라이언트로 PLC 및 산업용 장비 통신을 테스트하세요.",
 				"en": "Modbus TCP/IP Client for testing industrial devices and applications."
 			},
-			"icon": "ModbusTcpIp_Client_Tester.png"
+			"icon": "ModbusTcpIp_Client_Tester.jpg"
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
@@ -52,7 +52,7 @@
 				"ko": "Modbus TCP/IP 서버로 PLC 및 산업용 장비 통신을 테스트하세요.",
 				"en": "Modbus TCP/IP Server for testing industrial devices and applications."
 			},
-			"icon": "ModbusTcpIp_Server_Tester.png"
+			"icon": "ModbusTcpIp_Server_Tester.jpg"
 		},
 		{
 			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
@@ -64,7 +64,7 @@
 				"ko": "RS232/RS485 시리얼 통신 테스트 앱. 빠르고 간단한 앱",
 				"en": "RS232/RS485 communication. Fast and simple tool"
 			},
-			"icon": "Serial_Comm_Tester_RS232_485.png"
+			"icon": "Serial_Comm_Tester_RS232_485.jpg"
 		},
 		{
 			"appId": "com.lfc.PCD_Calc",
@@ -76,7 +76,7 @@
 				"ko": "PCD, 플랜지, 볼트 패턴 홀 좌표(X/Y)를 빠르게 계산하는 원형 좌표 계산기",
 				"en": "Fast calculator for PCD, flange and bolt pattern hole coordinates (X/Y)"
 			},
-			"icon": "PCD_Calc.png"
+			"icon": "PCD_Calc.jpg"
 		},
 		{
 			"appId": "com.lfc.AnalogSignalCalculator",
@@ -88,7 +88,7 @@
 				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
 				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
 			},
-			"icon": "AnalogSignalCalculator.png"
+			"icon": "AnalogSignalCalculator.jpg"
 		}
 	]
 }
