@@ -45,7 +45,7 @@
 		{
 			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
 			"name": {
-				"ko": "Modbus TCP/IP Server – 모드버스 서버",
+				"ko": "Modbus TCP/IP Server \n– 모드버스 서버",
 				"en": "Modbus TCP/IP Server (Slave)"
 			},
 			"desc": {
