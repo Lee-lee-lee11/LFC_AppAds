@@ -4,6 +4,7 @@
 			"appId": "com.lfc.AnalogSignalCalculator",
 			"targets": [
 				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.PCD_Calc",
 				"com.lfc.csvviewer"
 			]
