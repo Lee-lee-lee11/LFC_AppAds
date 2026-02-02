@@ -3,8 +3,9 @@
 		{
 			"appId": "com.lfc.AnalogSignalCalculator",
 			"targets": [
-				"com.lfc.Modbus_Client",
-				"com.lfc.PCD_Calc"
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.PCD_Calc",
+				"com.lfc.csvviewer"
 			]
 		},
 		{
@@ -15,30 +16,79 @@
 			]
 		}
 	],
+	
 	"apps": [
+		{
+			"appId": "com.lfc.csvviewer",
+			"name": {
+				"ko": "CSV 뷰어 – 그래프 & 차트 & 데이터 분석",
+				"en": "CSV Viewer-Chart & Analysis"
+			},
+			"desc": {
+				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
+				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
+			},
+			"icon": "csvviewer.png"
+		},
+		{
+			"appId": "com.lfc.ModbusTcpIp_Client_Tester",
+			"name": {
+				"ko": "Modbus TCP/IP Client 모드버스 클라이언트",
+				"en": "Modbus TCP/IP Client(Master)"
+			},
+			"desc": {
+				"ko": "Modbus TCP/IP 클라이언트를 이용해 PLC 및 산업용 장비 통신을 테스트하세요.",
+				"en": "Modbus TCP/IP Client simulator for testing industrial devices and applications."
+			},
+			"icon": "ModbusTcpIp_Client_Tester.png"
+		},
+		{
+			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
+			"name": {
+				"ko": "Modbus TCP/IP Server – 모드버스 서버",
+				"en": "Modbus TCP/IP Server (Slave)"
+			},
+			"desc": {
+				"ko": "Modbus TCP/IP 서버를 이용해 PLC 및 산업용 장비 통신을 테스트하세요.",
+				"en": "Modbus TCP/IP Server simulator for testing industrial devices and applications."
+			},
+			"icon": "ModbusTcpIp_Server_Tester.png"
+		},
+		{
+			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
+			"name": {
+				"ko": "시리얼 통신 – RS232 / RS485",
+				"en": "Serial Comm Tester – RS232/485"
+			},
+			"desc": {
+				"ko": "USB OTG 기반 RS232/RS485 시리얼 통신 테스트 앱. 현장 엔지니어를 위한 빠르고 간단한 테스터",
+				"en": "USB OTG serial tester for RS232/RS485 communication. Fast and simple tool"
+			},
+			"icon": "Serial_Comm_Tester_RS232_485.png"
+		},
 		{
 			"appId": "com.lfc.PCD_Calc",
 			"name": {
-				"ko": "PCD 계산기",
-				"en": "PCD Calculator"
+				"ko": "PCD 계산기 – 원형 좌표 계산",
+				"en": "PCD Calculator – Coordinates"
 			},
 			"desc": {
-				"ko": "PCD 좌표 계산",
-				"en": "PCD coordinate tool"
+				"ko": "PCD, 플랜지, 볼트 패턴 홀 좌표(X/Y)를 빠르게 계산하는 원형 좌표 계산기",
+				"en": "Fast calculator for PCD, flange and bolt pattern hole coordinates (X/Y)"
 			},
-			"icon": "https://.../icons/pcd.png"
+			"icon": "PCD_Calc.png"
 		},
 		{
 			"appId": "com.lfc.AnalogSignalCalculator",
 			"name": {
-				"ko": "아날로그 스케일링",
-				"en": "Analog Scaling"
+				"ko": "CSV 뷰어 – 그래프 & 차트 & 데이터 분석",
+				"en": "CSV Viewer-Chart & Analysis"
 			},
 			"desc": {
-				"ko": "신호 변환 계산기",
-				"en": "Signal scaling tool"
+				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
+				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
 			},
-			"icon": "https://.../icons/analog.png"
-		}
+			"icon": "AnalogSignalCalculator.png"
+		},
 	]
 }
