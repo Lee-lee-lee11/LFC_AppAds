@@ -21,68 +21,68 @@
 		{
 			"appId": "com.lfc.csvviewer",
 			"name": {
-				"ko": "CSV 뷰어\n– 그래프 & 차트 & 데이터 분석",
+				"ko": "CSV 뷰어\n – 그래프 & 차트 & 데이터 분석",
 				"en": "CSV Viewer\n-Chart & Analysis"
 			},
 			"desc": {
-				"ko": "CSV를 바로\n그래프·차트로 시각화하는 데이터 분석 도구",
-				"en": "A CSV viewer that instantly\nvisualizes data with charts and graphs"
+				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
+				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
 			},
 			"icon": "csvviewer.png"
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Client_Tester",
 			"name": {
-				"ko": "Modbus TCP/IP Client\n- 모드버스 클라이언트",
-				"en": "Modbus TCP/IP\n- Client(Master)"
+				"ko": "Modbus TCP/IP Client\n - 모드버스 클라이언트",
+				"en": "Modbus TCP/IP\n - Client(Master)"
 			},
 			"desc": {
-				"ko": "Modbus TCP/IP 클라이언트로\nPLC 및 산업용 장비 통신을 테스트하세요.",
-				"en": "Modbus TCP/IP Client for\ntesting industrial devices and applications."
+				"ko": "Modbus TCP/IP 클라이언트로 PLC 및 산업용 장비 통신을 테스트하세요.",
+				"en": "Modbus TCP/IP Client for testing industrial devices and applications."
 			},
 			"icon": "ModbusTcpIp_Client_Tester.png"
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
 			"name": {
-				"ko": "Modbus TCP/IP Server \n– 모드버스 서버",
-				"en": "Modbus TCP/IP\n- Server (Slave)"
+				"ko": "Modbus TCP/IP Server \n – 모드버스 서버",
+				"en": "Modbus TCP/IP \n- Server (Slave)"
 			},
 			"desc": {
-				"ko": "Modbus TCP/IP 서버로\nPLC 및 산업용 장비 통신을 테스트하세요.",
-				"en": "Modbus TCP/IP Server for\ntesting industrial devices and applications."
+				"ko": "Modbus TCP/IP 서버로 PLC 및 산업용 장비 통신을 테스트하세요.",
+				"en": "Modbus TCP/IP Server for testing industrial devices and applications."
 			},
 			"icon": "ModbusTcpIp_Server_Tester.png"
 		},
 		{
 			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
 			"name": {
-				"ko": "시리얼 통신\n– RS232 / RS485",
-				"en": "Serial Comm Tester\n– RS232/485"
+				"ko": "시리얼 통신\n – RS232 / RS485",
+				"en": "Serial Comm Tester\n – RS232/485"
 			},
 			"desc": {
 				"ko": "RS232/RS485 시리얼 통신 테스트 앱. 빠르고 간단한 앱",
-				"en": "RS232/RS485 communication.\nFast and simple tool"
+				"en": "RS232/RS485 communication. Fast and simple tool"
 			},
 			"icon": "Serial_Comm_Tester_RS232_485.png"
 		},
 		{
 			"appId": "com.lfc.PCD_Calc",
 			"name": {
-				"ko": "PCD 계산기\n– 원형 좌표 계산",
-				"en": "PCD Calculator\n– Pattern hole Coordinates"
+				"ko": "PCD 계산기 \n – 원형 좌표 계산",
+				"en": "PCD Calculator \n – Pattern hole Coordinates"
 			},
 			"desc": {
 				"ko": "PCD, 플랜지, 볼트 패턴 홀 좌표(X/Y)를 빠르게 계산하는 원형 좌표 계산기",
-				"en": "Fast calculator for PCD,\nflange and bolt pattern hole coordinates (X/Y)"
+				"en": "Fast calculator for PCD, flange and bolt pattern hole coordinates (X/Y)"
 			},
 			"icon": "PCD_Calc.png"
 		},
 		{
 			"appId": "com.lfc.AnalogSignalCalculator",
 			"name": {
-				"ko": "CSV 뷰어\n– 그래프 & 차트 & 데이터 분석",
-				"en": "CSV Viewer-Chart & Analysis"
+				"ko": "CSV 뷰어 \n – 그래프 & 차트 & 데이터 분석",
+				"en": "CSV Viewer \n - Chart & Analysis"
 			},
 			"desc": {
 				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
