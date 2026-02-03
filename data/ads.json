@@ -6,32 +6,44 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc"
+				"com.lfc.PCD_Calc",
+				"com.lfc.csvviewer"
 			]
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
 			"targets": [
-				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.PCD_Calc",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Client_Tester",
-				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc",
-				"com.lfc.ModbusTcpIp_Server_Tester",
-				"com.lfc.ModbusTcpIp_Client_Tester",
-				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc"
+				"com.lfc.csvviewer"
 			]
 		},
 		{
 			"appId": "com.lfc.ModbusTcpIp_Client_Tester",
 			"targets": [
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.PCD_Calc",
+				"com.lfc.csvviewer"
+			]
+		},
+		{
+			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
+			"targets": [
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.PCD_Calc",
+				"com.lfc.csvviewer"
+			]
+		},
+		{
+			"appId": "com.lfc.csvviewer",
+			"targets": [
+				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
@@ -39,14 +51,15 @@
 			]
 		},
 		{
-			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
+			"appId": "com.lfc.PCD_Calc",
 			"targets": [
-				"com.lfc.PCD_Calc",
-				"com.lfc.Analog_Signal_Scaling"
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485"
 			]
 		}
 	],
-	
 	"apps": [
 		{
 			"appId": "com.lfc.csvviewer",
@@ -111,12 +124,12 @@
 		{
 			"appId": "com.lfc.AnalogSignalCalculator",
 			"name": {
-				"ko": "CSV 뷰어 \nㅤ– 그래프 & 차트 & 데이터 분석",
-				"en": "CSV Viewer \nㅤ- Chart & Analysis"
+				"ko": "아날로그 신호 계산기",
+				"en": "Analog Signal Calculator"
 			},
 			"desc": {
-				"ko": "CSV를 바로 그래프·차트로 시각화하는 데이터 분석 도구",
-				"en": "A CSV viewer that instantly visualizes data with charts and graphs"
+				"ko": "4-20mA · 0-10V 아날로그 신호를 실제값으로 계산하는 엔지니어 계산기",
+				"en": "Calculate 4-20mA and 0-10V analog signals to actual values easily."
 			},
 			"icon": "AnalogSignalCalculator.jpg"
 		}
