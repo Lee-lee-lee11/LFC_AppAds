@@ -10,6 +10,24 @@
 			]
 		},
 		{
+			"appId": "com.lfc.ModbusTcpIp_Server_Tester",
+			"targets": [
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.PCD_Calc"
+			]
+		},
+		{
+			"appId": "com.lfc.ModbusTcpIp_Client_Tester",
+			"targets": [
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.PCD_Calc"
+			]
+		},
+		{
 			"appId": "com.lfc.Serial_Comm_Tester_RS232_485",
 			"targets": [
 				"com.lfc.PCD_Calc",
