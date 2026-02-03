@@ -34,6 +34,7 @@
         <!-- Tab Content: Ads -->
         <div id="ads-tab" class="tab-content active p-6">
             <h2 class="text-xl font-bold mb-4">광고 타겟 설정 (Ads)</h2>
+            <p class="text-sm text-gray-500 mb-4">* 자기 자신은 타겟 리스트에서 자동 제외됩니다.</p>
             <div id="adsList" class="space-y-6">
                 <!-- Ads items will be generated here -->
             </div>
@@ -49,10 +50,10 @@
                 <table class="w-full text-left border-collapse">
                     <thead>
                         <tr class="bg-gray-100">
-                            <th class="p-3 border">아이콘</th>
+                            <th class="p-3 border w-24">아이콘</th>
                             <th class="p-3 border">App ID</th>
                             <th class="p-3 border">이름 (KO/EN)</th>
-                            <th class="p-3 border">관리</th>
+                            <th class="p-3 border w-32 text-center">관리</th>
                         </tr>
                     </thead>
                     <tbody id="appsTableBody">
@@ -64,56 +65,51 @@
     </div>
 
     <!-- App Edit Modal -->
-    <div id="appModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-lg max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto">
+    <div id="appModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-lg max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto shadow-2xl">
             <h3 id="modalTitle" class="text-xl font-bold mb-4">앱 정보 수정</h3>
             <div class="grid grid-cols-1 gap-4">
                 <div>
-                    <label class="block text-sm font-medium">App ID</label>
-                    <input type="text" id="editAppId" class="w-full p-2 border rounded">
+                    <label class="block text-sm font-medium text-gray-700">App ID</label>
+                    <input type="text" id="editAppId" class="w-full p-2 border rounded mt-1">
                 </div>
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-sm font-medium">이름 (KO)</label>
-                        <input type="text" id="editNameKo" class="w-full p-2 border rounded">
+                        <label class="block text-sm font-medium text-gray-700">이름 (KO)</label>
+                        <input type="text" id="editNameKo" class="w-full p-2 border rounded mt-1">
                     </div>
                     <div>
-                        <label class="block text-sm font-medium">이름 (EN)</label>
-                        <input type="text" id="editNameEn" class="w-full p-2 border rounded">
+                        <label class="block text-sm font-medium text-gray-700">이름 (EN)</label>
+                        <input type="text" id="editNameEn" class="w-full p-2 border rounded mt-1">
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label class="block text-sm font-medium">설명 (KO)</label>
-                        <textarea id="editDescKo" class="w-full p-2 border rounded"></textarea>
+                        <label class="block text-sm font-medium text-gray-700">설명 (KO)</label>
+                        <textarea id="editDescKo" rows="3" class="w-full p-2 border rounded mt-1"></textarea>
                     </div>
                     <div>
-                        <label class="block text-sm font-medium">설명 (EN)</label>
-                        <textarea id="editDescEn" class="w-full p-2 border rounded"></textarea>
+                        <label class="block text-sm font-medium text-gray-700">설명 (EN)</label>
+                        <textarea id="editDescEn" rows="3" class="w-full p-2 border rounded mt-1"></textarea>
                     </div>
                 </div>
                 <div>
-                    <label class="block text-sm font-medium">아이콘 파일명</label>
-                    <input type="text" id="editIcon" class="w-full p-2 border rounded">
+                    <label class="block text-sm font-medium text-gray-700">아이콘 파일명 (예: myicon.jpg)</label>
+                    <input type="text" id="editIcon" class="w-full p-2 border rounded mt-1" placeholder="icon.jpg">
                 </div>
             </div>
             <div class="flex justify-end gap-2 mt-6">
-                <button onclick="closeAppModal()" class="px-4 py-2 bg-gray-300 rounded">취소</button>
-                <button onclick="saveApp()" class="px-4 py-2 bg-indigo-600 text-white rounded">저장</button>
+                <button onclick="closeAppModal()" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">취소</button>
+                <button onclick="saveApp()" class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 font-bold">저장하기</button>
             </div>
         </div>
     </div>
 
     <script>
-        // 초기 데이터 구조
-        let config = {
-            ads: [],
-            apps: []
-        };
-
+        let config = { ads: [], apps: [] };
         let editingAppIndex = -1;
+        const ICON_BASE_URL = "https://lee-lee-lee11.github.io/LFC_AppAds/imgs/";
 
-        // 탭 전환
         function showTab(tabId, btn) {
             document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active-tab'));
@@ -122,49 +118,55 @@
             render();
         }
 
-        // JSON 입력창에서 데이터 불러오기
         function importJSON() {
             try {
                 const raw = document.getElementById('jsonInput').value;
                 if(!raw.trim()) return alert("JSON 내용을 입력해주세요.");
                 config = JSON.parse(raw);
                 render();
-                alert("데이터를 성공적으로 불러왔습니다.");
+                alert("성공적으로 불러왔습니다.");
             } catch (e) {
-                alert("JSON 형식이 올바르지 않습니다: " + e.message);
+                alert("JSON 오류: " + e.message);
             }
         }
 
-        // 전체 렌더링
         function render() {
             renderApps();
             renderAds();
             document.getElementById('jsonInput').value = JSON.stringify(config, null, "\t");
         }
 
-        // Apps 탭 렌더링
         function renderApps() {
             const tbody = document.getElementById('appsTableBody');
             tbody.innerHTML = '';
             config.apps.forEach((app, index) => {
                 const tr = document.createElement('tr');
+                const imgUrl = ICON_BASE_URL + app.icon;
+                
                 tr.innerHTML = `
-                    <td class="p-3 border text-center"><span class="text-xs bg-gray-100 p-1">${app.icon}</span></td>
-                    <td class="p-3 border font-mono text-sm">${app.appId}</td>
+                    <td class="p-3 border text-center">
+                        <div class="flex flex-col items-center gap-2">
+                            <img src="${imgUrl}" 
+                                 alt="icon" 
+                                 class="w-12 h-12 object-contain border rounded bg-gray-50 shadow-sm"
+                                 onerror="this.src='https://via.placeholder.com/48?text=No+Img'">
+                            <span class="text-[10px] text-gray-400 font-mono break-all">${app.icon}</span>
+                        </div>
+                    </td>
+                    <td class="p-3 border font-mono text-sm text-indigo-600 font-semibold">${app.appId}</td>
                     <td class="p-3 border">
                         <div class="text-sm font-bold">${app.name.ko}</div>
                         <div class="text-xs text-gray-500">${app.name.en}</div>
                     </td>
                     <td class="p-3 border text-center">
-                        <button onclick="openAppModal(${index})" class="text-blue-600 hover:underline mr-2">수정</button>
-                        <button onclick="deleteApp(${index})" class="text-red-600 hover:underline">삭제</button>
+                        <button onclick="openAppModal(${index})" class="text-blue-600 hover:underline block w-full mb-1">수정</button>
+                        <button onclick="deleteApp(${index})" class="text-red-600 hover:underline block w-full">삭제</button>
                     </td>
                 `;
                 tbody.appendChild(tr);
             });
         }
 
-        // Ads 탭 렌더링
         function renderAds() {
             const container = document.getElementById('adsList');
             container.innerHTML = '';
@@ -175,34 +177,41 @@
                 const card = document.createElement('div');
                 card.className = "bg-white border rounded-lg p-4 shadow-sm hover:shadow-md transition";
                 
-                let targetCheckboxes = config.apps.map(targetApp => {
-                    const isChecked = adConfig.targets.includes(targetApp.appId);
-                    return `
-                        <label class="flex items-center space-x-2 p-1 hover:bg-gray-50 rounded cursor-pointer">
-                            <input type="checkbox" 
-                                   ${isChecked ? 'checked' : ''} 
-                                   onchange="toggleTarget('${app.appId}', '${targetApp.appId}', this.checked)"
-                                   class="rounded text-blue-600">
-                            <span class="text-sm">${targetApp.appId}</span>
-                        </label>
-                    `;
-                }).join('');
+                // 자기 자신 제외 필터링
+                const targetCheckboxes = config.apps
+                    .filter(targetApp => targetApp.appId !== app.appId) 
+                    .map(targetApp => {
+                        const isChecked = adConfig.targets.includes(targetApp.appId);
+                        return `
+                            <label class="flex items-center space-x-2 p-1 hover:bg-blue-50 rounded cursor-pointer transition">
+                                <input type="checkbox" 
+                                       ${isChecked ? 'checked' : ''} 
+                                       onchange="toggleTarget('${app.appId}', '${targetApp.appId}', this.checked)"
+                                       class="rounded text-blue-600 w-4 h-4">
+                                <span class="text-sm text-gray-700">${targetApp.appId}</span>
+                            </label>
+                        `;
+                    }).join('');
 
                 card.innerHTML = `
-                    <div class="font-bold text-indigo-700 mb-2 border-b pb-1">${app.appId} <span class="text-gray-400 font-normal text-sm">(${app.name.ko})</span></div>
-                    <div class="text-xs text-gray-500 mb-2 font-semibold">Targets 선택:</div>
+                    <div class="flex items-center gap-3 mb-3 border-b pb-2">
+                        <img src="${ICON_BASE_URL}${app.icon}" class="w-8 h-8 object-contain" onerror="this.style.display='none'">
+                        <div>
+                            <div class="font-bold text-indigo-700">${app.appId}</div>
+                            <div class="text-xs text-gray-500">${app.name.ko}</div>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 mb-2 font-bold uppercase tracking-wider">Targets Selection</div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-1">
-                        ${targetCheckboxes}
+                        ${targetCheckboxes || '<span class="text-gray-400 italic text-xs">타겟으로 선택할 다른 앱이 없습니다.</span>'}
                     </div>
                 `;
                 container.appendChild(card);
             });
         }
 
-        // 체크박스 변경 시 ads 데이터 업데이트
         function toggleTarget(sourceAppId, targetAppId, isChecked) {
             let adIdx = config.ads.findIndex(a => a.appId === sourceAppId);
-            
             if (adIdx === -1) {
                 config.ads.push({ appId: sourceAppId, targets: [] });
                 adIdx = config.ads.length - 1;
@@ -215,12 +224,9 @@
             } else {
                 config.ads[adIdx].targets = config.ads[adIdx].targets.filter(id => id !== targetAppId);
             }
-            
-            // targets가 비어있으면 해당 ads 객체 제거 여부는 선택사항 (여기서는 유지)
             document.getElementById('jsonInput').value = JSON.stringify(config, null, "\t");
         }
 
-        // 앱 모달 열기
         function openAppModal(index = -1) {
             editingAppIndex = index;
             if (index > -1) {
@@ -248,40 +254,28 @@
             document.getElementById('appModal').classList.add('hidden');
         }
 
-        // 앱 저장
         function saveApp() {
             const appId = document.getElementById('editAppId').value.trim();
-            if (!appId) return alert("App ID는 필수입니다.");
+            if (!appId) return alert("App ID를 입력해주세요.");
 
             const appData = {
                 appId: appId,
-                name: {
-                    ko: document.getElementById('editNameKo').value,
-                    en: document.getElementById('editNameEn').value
-                },
-                desc: {
-                    ko: document.getElementById('editDescKo').value,
-                    en: document.getElementById('editDescEn').value
-                },
+                name: { ko: document.getElementById('editNameKo').value, en: document.getElementById('editNameEn').value },
+                desc: { ko: document.getElementById('editDescKo').value, en: document.getElementById('editDescEn').value },
                 icon: document.getElementById('editIcon').value
             };
 
             if (editingAppIndex > -1) {
-                // 기존 앱의 ID가 바뀌었을 경우 ads 내의 참조도 업데이트 해야함
                 const oldId = config.apps[editingAppIndex].appId;
-                if (oldId !== appId) {
-                    updateAppIdReferences(oldId, appId);
-                }
+                if (oldId !== appId) updateAppIdReferences(oldId, appId);
                 config.apps[editingAppIndex] = appData;
             } else {
                 config.apps.push(appData);
             }
-
             render();
             closeAppModal();
         }
 
-        // App ID가 바뀔 때 ads 리스트 갱신
         function updateAppIdReferences(oldId, newId) {
             config.ads.forEach(ad => {
                 if (ad.appId === oldId) ad.appId = newId;
@@ -289,12 +283,10 @@
             });
         }
 
-        // 앱 삭제
         function deleteApp(index) {
-            if (confirm("정말로 이 앱을 삭제하시겠습니까? 관련 광고 설정도 삭제됩니다.")) {
+            if (confirm("삭제하시겠습니까? 관련 광고 설정도 함께 삭제됩니다.")) {
                 const appId = config.apps[index].appId;
                 config.apps.splice(index, 1);
-                // ads에서도 해당 앱 관련 설정 제거
                 config.ads = config.ads.filter(ad => ad.appId !== appId);
                 config.ads.forEach(ad => {
                     ad.targets = ad.targets.filter(t => t !== appId);
@@ -303,7 +295,6 @@
             }
         }
 
-        // JSON 다운로드
         function exportJSON() {
             const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(config, null, "\t"));
             const downloadAnchorNode = document.createElement('a');
@@ -314,18 +305,12 @@
             downloadAnchorNode.remove();
         }
 
-        // 클립보드 복사
         function copyToClipboard() {
             const el = document.getElementById('jsonInput');
             el.select();
             document.execCommand('copy');
             alert("클립보드에 복사되었습니다.");
         }
-
-        // 초기 샘플 데이터 로드 (선택 사항)
-        window.onload = () => {
-            // 필요 시 초기값 설정
-        };
     </script>
 </body>
 </html>
