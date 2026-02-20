@@ -58,6 +58,17 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485"
 			]
+		},
+		{
+			"appId": "com.lfc.barcodevalidator",
+			"targets": [
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.PCD_Calc",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.csvviewer"
+			]
 		}
 	],
 	"apps": [
@@ -132,6 +143,18 @@
 				"en": "Calculate 4-20mA and 0-10V analog signals to actual values easily."
 			},
 			"icon": "AnalogSignalCalculator.jpg"
+		},
+		{
+			"appId": "com.lfc.barcodevalidator",
+			"name": {
+				"ko": "바코드 스캔 분석",
+				"en": "Barcode Parser"
+			},
+			"desc": {
+				"ko": "안드로이드 바코드 스캔 분석",
+				"en": "App of Barcode Parser"
+			},
+			"icon": ""
 		}
 	]
 }
