@@ -69,6 +69,29 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.csvviewer"
 			]
+		},
+		{
+			"appId": "com.lfc.imageBatchEditor",
+			"targets": [
+				"com.lfc.csvviewer",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.pdfEditor",
+				"com.lfc.PCD_Calc",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator"
+			]
+		},
+		{
+			"appId": "com.lfc.pdfEditor",
+			"targets": [
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.PCD_Calc",
+				"com.lfc.imageBatchEditor",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.csvviewer"
+			]
 		}
 	],
 	"apps": [
@@ -153,6 +176,30 @@
 			"desc": {
 				"ko": "안드로이드 바코드 스캔 분석",
 				"en": "App of Barcode Parser"
+			},
+			"icon": ""
+		},
+		{
+			"appId": "com.lfc.imageBatchEditor",
+			"name": {
+				"ko": "이미지 배치 에디터",
+				"en": "imageBatchEditor"
+			},
+			"desc": {
+				"ko": "Desc 이미지 배치 에디터",
+				"en": "Desc imageBatchEditor"
+			},
+			"icon": ""
+		},
+		{
+			"appId": "com.lfc.pdfEditor",
+			"name": {
+				"ko": "PDF 에디터",
+				"en": "PDF Editor"
+			},
+			"desc": {
+				"ko": "Desc PDF 에디터",
+				"en": "Desc PDF Editor"
 			},
 			"icon": ""
 		}
