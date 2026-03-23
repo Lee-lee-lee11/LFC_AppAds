@@ -7,7 +7,11 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer"
+				"com.lfc.csvviewer",
+				"com.lfc.sitereport",
+				"com.lfc.barcodevalidator",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.modbus_rtu_server"
 			]
 		},
 		{
@@ -17,7 +21,11 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer"
+				"com.lfc.csvviewer",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.barcodevalidator"
 			]
 		},
 		{
@@ -27,7 +35,11 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer"
+				"com.lfc.csvviewer",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.sitereport",
+				"com.lfc.barcodevalidator"
 			]
 		},
 		{
@@ -37,7 +49,11 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.PCD_Calc",
-				"com.lfc.csvviewer"
+				"com.lfc.csvviewer",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.barcodevalidator"
 			]
 		},
 		{
@@ -47,7 +63,12 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.PCD_Calc"
+				"com.lfc.PCD_Calc",
+				"com.lfc.barcodevalidator",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.sitereport",
+				"com.lfc.imageBatchEditor"
 			]
 		},
 		{
@@ -56,7 +77,11 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
-				"com.lfc.Serial_Comm_Tester_RS232_485"
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.barcodevalidator"
 			]
 		},
 		{
@@ -67,7 +92,10 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.AnalogSignalCalculator",
-				"com.lfc.csvviewer"
+				"com.lfc.csvviewer",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_client"
 			]
 		},
 		{
@@ -75,22 +103,48 @@
 			"targets": [
 				"com.lfc.csvviewer",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.pdfEditor",
 				"com.lfc.PCD_Calc",
 				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.barcodevalidator"
+			]
+		},
+		{
+			"appId": "com.lfc.sitereport",
+			"targets": [
+				"com.lfc.imageBatchEditor",
+				"com.lfc.barcodevalidator",
+				"com.lfc.csvviewer"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.modbus_rtu_client",
+			"targets": [
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.sitereport",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.barcodevalidator",
+				"com.lfc.PCD_Calc",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.AnalogSignalCalculator"
 			]
 		},
 		{
-			"appId": "com.lfc.pdfEditor",
+			"appId": "com.lfc.apps.modbus_rtu_server",
 			"targets": [
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.PCD_Calc",
-				"com.lfc.imageBatchEditor",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.csvviewer"
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.barcodevalidator",
+				"com.lfc.sitereport"
 			]
 		}
 	],
@@ -170,38 +224,62 @@
 		{
 			"appId": "com.lfc.barcodevalidator",
 			"name": {
-				"ko": "바코드 스캔 분석",
-				"en": "Barcode Parser"
+				"ko": "QR·바코드 스캔 – 데이터 분할",
+				"en": "QR & Barcode Scan – Data Split"
 			},
 			"desc": {
-				"ko": "안드로이드 바코드 스캔 분석",
-				"en": "App of Barcode Parser"
+				"ko": "QR·바코드 스캐너로 스캔 후 규칙에 따라 데이터 자동 분할 및 필드 확인",
+				"en": "Scan QR & barcodes and split data by your custom rules instantly"
 			},
-			"icon": ""
+			"icon": "barcodevalidator.png"
 		},
 		{
 			"appId": "com.lfc.imageBatchEditor",
 			"name": {
-				"ko": "이미지 배치 에디터",
-				"en": "imageBatchEditor"
+				"ko": "이미지 일괄 처리기 - 리사이즈 / 이름 일괄 변경",
+				"en": "Image Batch Editor - Resize"
 			},
 			"desc": {
-				"ko": "Desc 이미지 배치 에디터",
-				"en": "Desc imageBatchEditor"
+				"ko": "이미지 일괄 리사이즈 · 일괄 이름 변경 지원",
+				"en": "Batch resize and rename images at once."
 			},
-			"icon": ""
+			"icon": "imageBatchEditor.png"
 		},
 		{
-			"appId": "com.lfc.pdfEditor",
+			"appId": "com.lfc.sitereport",
 			"name": {
-				"ko": "PDF 에디터",
-				"en": "PDF Editor"
+				"ko": "현장 사진 PDF 보고서",
+				"en": "Field Photo Report PDF"
 			},
 			"desc": {
-				"ko": "Desc PDF 에디터",
-				"en": "Desc PDF Editor"
+				"ko": "현장 사진을 프로젝트별로 정리하고 PDF 보고서로 내보내세요",
+				"en": "Organize field photos by project and export PDF reports fast"
 			},
-			"icon": ""
+			"icon": "sitereport.png"
+		},
+		{
+			"appId": "com.lfc.apps.modbus_rtu_client",
+			"name": {
+				"ko": "Modbus RTU Client",
+				"en": "Modbus RTU Client"
+			},
+			"desc": {
+				"ko": "PLC · 센서 Modbus RTU 코일·레지스터 읽기/쓰기 클라이언트",
+				"en": "PLC and sensor Modbus RTU coil and register read/write client"
+			},
+			"icon": "modbus_rtu_client.png"
+		},
+		{
+			"appId": "com.lfc.apps.modbus_rtu_server",
+			"name": {
+				"ko": "Modbus RTU Server",
+				"en": "Modbus RTU Server"
+			},
+			"desc": {
+				"ko": "Modbus RTU 서버를 USB 시리얼로 열고 FC01~FC04 값을 읽고 설정하세요",
+				"en": "Modbus RTU server over USB serial for reading and setting FC01-FC04 values."
+			},
+			"icon": "modbus_rtu_server.png"
 		}
 	]
 }
