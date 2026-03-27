@@ -158,6 +158,13 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.csvviewer"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.gearpulleyratiocalculator",
+			"targets": [
+				"com.lfc.PCD_Calc",
+				"com.lfc.sitereport"
+			]
 		}
 	],
 	"apps": [
@@ -304,6 +311,18 @@
 				"en": "Modbus RTU CRC16 calculator for hex frames with full frame copy"
 			},
 			"icon": "modbus_crc_calc.png"
+		},
+		{
+			"appId": "com.lfc.apps.gearpulleyratiocalculator",
+			"name": {
+				"ko": "기어풀리",
+				"en": "gearpulleyratiocalculator"
+			},
+			"desc": {
+				"ko": "기기기",
+				"en": "ggeepull"
+			},
+			"icon": "gearpulleyratiocalculator.png"
 		}
 	]
 }
