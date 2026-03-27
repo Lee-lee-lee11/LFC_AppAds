@@ -165,6 +165,24 @@
 				"com.lfc.PCD_Calc",
 				"com.lfc.sitereport"
 			]
+		},
+		{
+			"appId": "com.example.lfc_f_msg_test_app",
+			"targets": [
+				"com.lfc.csvviewer",
+				"com.lfc.barcodevalidator",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.gearpulleyratiocalculator",
+				"com.lfc.imageBatchEditor",
+				"com.lfc.PCD_Calc",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.sitereport",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester"
+			]
 		}
 	],
 	"apps": [
@@ -323,6 +341,18 @@
 				"en": "ggeepull"
 			},
 			"icon": "gearpulleyratiocalculator.png"
+		},
+		{
+			"appId": "com.example.lfc_f_msg_test_app",
+			"name": {
+				"ko": "ㅇㄴㄹㄹㄴㅇㄹ",
+				"en": "sdf"
+			},
+			"desc": {
+				"ko": "ㄴㅇㄹㄴㅇㄹ",
+				"en": "dfgdfg"
+			},
+			"icon": "lfc_f_msg_test_app.png"
 		}
 	]
 }
