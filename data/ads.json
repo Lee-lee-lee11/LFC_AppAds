@@ -146,6 +146,18 @@
 				"com.lfc.barcodevalidator",
 				"com.lfc.sitereport"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.modbus_crc_calc",
+			"targets": [
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.csvviewer"
+			]
 		}
 	],
 	"apps": [
@@ -280,6 +292,18 @@
 				"en": "Modbus RTU server over USB serial for reading and setting FC01-FC04 values."
 			},
 			"icon": "modbus_rtu_server.png"
+		},
+		{
+			"appId": "com.lfc.apps.modbus_crc_calc",
+			"name": {
+				"ko": "Modbus CRC 계산기",
+				"en": "Modbus CRC Calculator"
+			},
+			"desc": {
+				"ko": "Modbus RTU Hex 프레임 CRC16 계산기, CRC 포함 프레임 복사 지원",
+				"en": "Modbus RTU CRC16 calculator for hex frames with full frame copy"
+			},
+			"icon": "modbus_crc_calc.png"
 		}
 	]
 }
