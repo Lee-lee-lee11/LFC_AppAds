@@ -342,12 +342,12 @@
 		{
 			"appId": "com.lfc.apps.gearpulleyratiocalculator",
 			"name": {
-				"ko": "기어풀리",
-				"en": "gearpulleyratiocalculator"
+				"ko": "풀리 기어 비율 계산기",
+				"en": "Pulley Gear Ratio Calculator"
 			},
 			"desc": {
-				"ko": "기기기",
-				"en": "ggeepull"
+				"ko": "풀리 비율 계산기, 기어 비율 계산기, 출력 RPM 계산기 오프라인 앱.",
+				"en": "Pulley ratio, gear ratio calculator, and output RPM calculator offline"
 			},
 			"icon": "gearpulleyratiocalculator.png"
 		},
