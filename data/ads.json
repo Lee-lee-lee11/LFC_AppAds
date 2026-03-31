@@ -183,6 +183,15 @@
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.cncquickcalc",
+			"targets": [
+				"com.lfc.PCD_Calc",
+				"com.lfc.sitereport",
+				"com.lfc.barcodevalidator",
+				"com.lfc.apps.gearpulleyratiocalculator"
+			]
 		}
 	],
 	"apps": [
@@ -353,6 +362,18 @@
 				"en": "dfgdfg"
 			},
 			"icon": "lfc_f_msg_test_app.png"
+		},
+		{
+			"appId": "com.lfc.apps.cncquickcalc",
+			"name": {
+				"ko": "CNC 계산기: 절삭조건",
+				"en": "CNC Calculator: RPM Feed"
+			},
+			"desc": {
+				"ko": "절삭조건, RPM, 이송속도, 표면속도, 모따기 계산을 빠르게 하는 CNC 계산기",
+				"en": "Fast CNC calculator for speeds and feeds, RPM, feed rate, surface speed, and chamfer"
+			},
+			"icon": "cncquickcalc.png"
 		}
 	]
 }
