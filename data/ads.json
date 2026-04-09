@@ -374,6 +374,18 @@
 				"en": "Fast CNC calculator for speeds and feeds, RPM, feed rate, surface speed, and chamfer"
 			},
 			"icon": "cncquickcalc.png"
+		},
+		{
+			"appId": "com.lfc.apps.electricalfieldtoolkit",
+			"name": {
+				"ko": "전기 현장 계산기",
+				"en": "Electrical Calculator Toolkit"
+			},
+			"desc": {
+				"ko": "전력, 퓨즈, LED 저항, 커패시터, 저항 색코드 계산기를 한곳에",
+				"en": "Power, fuse, LED resistor, capacitor, and resistor color calculators in one app"
+			},
+			"icon": "electricalfieldtoolkit.png"
 		}
 	]
 }
