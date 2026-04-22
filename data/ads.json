@@ -205,6 +205,13 @@
 				"com.lfc.sitereport",
 				"com.lfc.Serial_Comm_Tester_RS232_485"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.brickcalculator",
+			"targets": [
+				"com.lfc.imageBatchEditor",
+				"com.lfc.sitereport"
+			]
 		}
 	],
 	"apps": [
@@ -399,6 +406,18 @@
 				"en": "Power, fuse, LED resistor, capacitor, and resistor color calculators in one app"
 			},
 			"icon": "electricalfieldtoolkit.png"
+		},
+		{
+			"appId": "com.lfc.apps.brickcalculator",
+			"name": {
+				"ko": "벽돌 계산기",
+				"en": "Brick Calc"
+			},
+			"desc": {
+				"ko": "벽돌 개수 계산기다",
+				"en": "Brick calc desu"
+			},
+			"icon": "brickcalculator.png"
 		}
 	]
 }
