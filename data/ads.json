@@ -248,6 +248,12 @@
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.apps.gearpulleyratiocalculator"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.gstcalculator",
+			"targets": [
+				"com.lfc.emi_calculator"
+			]
 		}
 	],
 	"apps": [
@@ -466,6 +472,18 @@
 				"en": "Calculate loan EMI, interest, payment, amortization, and loan comparison."
 			},
 			"icon": "emi_calculator.png"
+		},
+		{
+			"appId": "com.lfc.apps.gstcalculator",
+			"name": {
+				"ko": "GST Calculator India",
+				"en": "GST Calculator India"
+			},
+			"desc": {
+				"ko": "Calculate GST, invoices, pricing and profit for India with saved history.",
+				"en": "Calculate GST, invoices, pricing and profit for India with saved history."
+			},
+			"icon": "gstcalculator.png"
 		}
 	]
 }
