@@ -246,7 +246,8 @@
 				"com.lfc.apps.modbus_rtu_client",
 				"com.lfc.barcodevalidator",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.apps.gearpulleyratiocalculator"
+				"com.lfc.apps.gearpulleyratiocalculator",
+				"com.lfc.apps.gstcalculator"
 			]
 		},
 		{
