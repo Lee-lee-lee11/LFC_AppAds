@@ -255,6 +255,34 @@
 			"targets": [
 				"com.lfc.emi_calculator"
 			]
+		},
+		{
+			"appId": "com.lfc.apps.can_dbc_viewer",
+			"targets": [
+				"com.lfc.csvviewer",
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.Serial_Comm_Tester_RS232_485"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.lin_ldf_viewer",
+			"targets": [
+				"com.lfc.csvviewer",
+				"com.lfc.apps.can_dbc_viewer",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.Serial_Comm_Tester_RS232_485"
+			]
 		}
 	],
 	"apps": [
@@ -485,6 +513,30 @@
 				"en": "Calculate GST, invoices, pricing and profit for India with saved history."
 			},
 			"icon": "gstcalculator.png"
+		},
+		{
+			"appId": "com.lfc.apps.lin_ldf_viewer",
+			"name": {
+				"ko": "LIN LDF Viewer",
+				"en": "LIN LDF Viewer"
+			},
+			"desc": {
+				"ko": "LIN LDF 파일의 노드, 프레임, 신호, 스케줄을 빠르게 확인하세요.",
+				"en": "Open LIN LDF files and inspect nodes, frames, signals, and schedules."
+			},
+			"icon": "lin_ldf_viewer.png"
+		},
+		{
+			"appId": "com.lfc.apps.can_dbc_viewer",
+			"name": {
+				"ko": "CAN DBC Viewer",
+				"en": "CAN DBC Viewer"
+			},
+			"desc": {
+				"ko": "CAN DBC 파일의 메시지, 신호, 노드, 비트 레이아웃을 확인하세요.",
+				"en": "Open CAN DBC files and inspect messages, signals, nodes, and bit layouts."
+			},
+			"icon": "can_dbc_viewer.png"
 		}
 	]
 }
