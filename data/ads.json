@@ -19,7 +19,8 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.gearpulleyratiocalculator",
-				"com.lfc.apps.cncquickcalc"
+				"com.lfc.apps.cncquickcalc",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -39,7 +40,8 @@
 				"com.lfc.apps.vibration_meter",
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.can_dbc_viewer",
-				"com.lfc.apps.lin_ldf_viewer"
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -59,7 +61,8 @@
 				"com.lfc.apps.lin_ldf_viewer",
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.electricalfieldtoolkit"
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -79,7 +82,8 @@
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.vibration_meter",
 				"com.lfc.apps.electricalfieldtoolkit",
-				"com.lfc.apps.modbus_crc_calc"
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -100,7 +104,8 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.lin_ldf_viewer",
-				"com.lfc.apps.modbus_crc_calc"
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -118,7 +123,8 @@
 				"com.lfc.apps.cncquickcalc",
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.gearpulleyratiocalculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -139,7 +145,8 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.cncquickcalc",
 				"com.lfc.apps.modbus_crc_calc",
-				"com.lfc.apps.brickcalculator"
+				"com.lfc.apps.brickcalculator",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -156,7 +163,8 @@
 				"com.lfc.apps.modbus_rtu_server",
 				"com.lfc.barcodevalidator",
 				"com.lfc.emi_calculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -166,7 +174,8 @@
 				"com.lfc.barcodevalidator",
 				"com.lfc.csvviewer",
 				"com.lfc.emi_calculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -184,7 +193,9 @@
 				"com.lfc.apps.lin_ldf_viewer",
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.electricalfieldtoolkit",
-				"com.lfc.apps.modbus_crc_calc"
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
@@ -202,7 +213,9 @@
 				"com.lfc.apps.lin_ldf_viewer",
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.electricalfieldtoolkit",
-				"com.lfc.apps.modbus_crc_calc"
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -217,7 +230,9 @@
 				"com.lfc.csvviewer",
 				"com.lfc.emi_calculator",
 				"com.lfc.apps.can_dbc_viewer",
-				"com.lfc.apps.lin_ldf_viewer"
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -226,7 +241,8 @@
 				"com.lfc.PCD_Calc",
 				"com.lfc.sitereport",
 				"com.lfc.emi_calculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -245,7 +261,9 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.ModbusTcpIp_Client_Tester",
-				"com.lfc.emi_calculator"
+				"com.lfc.emi_calculator",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
@@ -256,7 +274,8 @@
 				"com.lfc.barcodevalidator",
 				"com.lfc.apps.gearpulleyratiocalculator",
 				"com.lfc.emi_calculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -270,7 +289,9 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.sitereport",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
-				"com.lfc.emi_calculator"
+				"com.lfc.emi_calculator",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
@@ -279,7 +300,8 @@
 				"com.lfc.imageBatchEditor",
 				"com.lfc.sitereport",
 				"com.lfc.emi_calculator",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -299,13 +321,17 @@
 				"com.lfc.barcodevalidator",
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.apps.gearpulleyratiocalculator",
-				"com.lfc.apps.gstcalculator"
+				"com.lfc.apps.gstcalculator",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
 			"appId": "com.lfc.apps.gstcalculator",
 			"targets": [
-				"com.lfc.emi_calculator"
+				"com.lfc.emi_calculator",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
@@ -319,7 +345,9 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.ModbusTcpIp_Server_Tester",
 				"com.lfc.AnalogSignalCalculator",
-				"com.lfc.Serial_Comm_Tester_RS232_485"
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger"
 			]
 		},
 		{
@@ -333,7 +361,9 @@
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.modbus_rtu_server",
 				"com.lfc.apps.modbus_rtu_client",
-				"com.lfc.Serial_Comm_Tester_RS232_485"
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.vibration_meter"
 			]
 		},
 		{
@@ -352,7 +382,25 @@
 				"com.lfc.AnalogSignalCalculator",
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.apps.modbus_rtu_client",
-				"com.lfc.apps.gearpulleyratiocalculator"
+				"com.lfc.apps.gearpulleyratiocalculator",
+				"com.lfc.apps.angle_slope_level_logger"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.angle_slope_level_logger",
+			"targets": [
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.PCD_Calc",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.cncquickcalc",
+				"com.lfc.apps.brickcalculator",
+				"com.lfc.apps.gearpulleyratiocalculator",
+				"com.lfc.apps.electricalfieldtoolkit"
 			]
 		}
 	],
@@ -620,6 +668,18 @@
 				"en": "Measure and analyze vibration with phone sensor charts and CSV export"
 			},
 			"icon": "vibration_meter.png"
+		},
+		{
+			"appId": "com.lfc.apps.angle_slope_level_logger",
+			"name": {
+				"ko": "각도 경사 수평계 기록",
+				"en": "Angle Slope Level Logger"
+			},
+			"desc": {
+				"ko": "휴대폰 센서로 각도, 경사도, 수평을 측정하고 CSV로 기록하세요.",
+				"en": "Measure angle, slope, and level with your phone sensor, then save CSV records."
+			},
+			"icon": "angle_slope_level_logger.png"
 		}
 	]
 }
