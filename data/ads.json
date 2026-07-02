@@ -41,7 +41,9 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.lin_ldf_viewer",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -62,7 +64,9 @@
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.vibration_meter",
 				"com.lfc.apps.electricalfieldtoolkit",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -83,7 +87,9 @@
 				"com.lfc.apps.vibration_meter",
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.modbus_crc_calc",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
 			]
 		},
 		{
@@ -105,7 +111,9 @@
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.lin_ldf_viewer",
 				"com.lfc.apps.modbus_crc_calc",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -195,7 +203,9 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.angle_slope_level_logger",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -215,7 +225,9 @@
 				"com.lfc.apps.electricalfieldtoolkit",
 				"com.lfc.apps.modbus_crc_calc",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
 			]
 		},
 		{
@@ -232,7 +244,9 @@
 				"com.lfc.apps.can_dbc_viewer",
 				"com.lfc.apps.lin_ldf_viewer",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
 			]
 		},
 		{
@@ -242,7 +256,9 @@
 				"com.lfc.sitereport",
 				"com.lfc.emi_calculator",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
 			]
 		},
 		{
@@ -275,7 +291,9 @@
 				"com.lfc.apps.gearpulleyratiocalculator",
 				"com.lfc.emi_calculator",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
 			]
 		},
 		{
@@ -291,7 +309,9 @@
 				"com.lfc.Serial_Comm_Tester_RS232_485",
 				"com.lfc.emi_calculator",
 				"com.lfc.apps.angle_slope_level_logger",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -301,7 +321,11 @@
 				"com.lfc.sitereport",
 				"com.lfc.emi_calculator",
 				"com.lfc.apps.vibration_meter",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -323,7 +347,11 @@
 				"com.lfc.apps.gearpulleyratiocalculator",
 				"com.lfc.apps.gstcalculator",
 				"com.lfc.apps.angle_slope_level_logger",
-				"com.lfc.apps.vibration_meter"
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.smartphone_sensor_tester"
 			]
 		},
 		{
@@ -383,7 +411,11 @@
 				"com.lfc.ModbusTcpIp_Client_Tester",
 				"com.lfc.apps.modbus_rtu_client",
 				"com.lfc.apps.gearpulleyratiocalculator",
-				"com.lfc.apps.angle_slope_level_logger"
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.rta_audio_analyzer"
 			]
 		},
 		{
@@ -400,7 +432,91 @@
 				"com.lfc.apps.cncquickcalc",
 				"com.lfc.apps.brickcalculator",
 				"com.lfc.apps.gearpulleyratiocalculator",
-				"com.lfc.apps.electricalfieldtoolkit"
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.morse_code_decoder",
+			"targets": [
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.can_dbc_viewer",
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.apps.modbus_rtu_client"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.smartphone_sensor_tester",
+			"targets": [
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.frequency_generator",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.can_dbc_viewer",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.modbus_rtu_server"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.rta_audio_analyzer",
+			"targets": [
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.apps.vibration_meter",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.apps.can_dbc_viewer",
+				"com.lfc.apps.frequency_generator"
+			]
+		},
+		{
+			"appId": "com.lfc.apps.frequency_generator",
+			"targets": [
+				"com.lfc.apps.rta_audio_analyzer",
+				"com.lfc.apps.can_dbc_viewer",
+				"com.lfc.apps.modbus_crc_calc",
+				"com.lfc.AnalogSignalCalculator",
+				"com.lfc.ModbusTcpIp_Server_Tester",
+				"com.lfc.apps.lin_ldf_viewer",
+				"com.lfc.apps.morse_code_decoder",
+				"com.lfc.apps.angle_slope_level_logger",
+				"com.lfc.apps.modbus_rtu_server",
+				"com.lfc.ModbusTcpIp_Client_Tester",
+				"com.lfc.Serial_Comm_Tester_RS232_485",
+				"com.lfc.apps.modbus_rtu_client",
+				"com.lfc.apps.electricalfieldtoolkit",
+				"com.lfc.apps.smartphone_sensor_tester",
+				"com.lfc.apps.vibration_meter"
 			]
 		}
 	],
@@ -680,6 +796,54 @@
 				"en": "Measure angle, slope, and level with your phone sensor, then save CSV records."
 			},
 			"icon": "angle_slope_level_logger.png"
+		},
+		{
+			"appId": "com.lfc.apps.frequency_generator",
+			"name": {
+				"ko": "주파수 노이즈 발생기",
+				"en": "Frequency & Noise Generator"
+			},
+			"desc": {
+				"ko": "전문가용 톤, 주파수 스윕, 화이트/핑크/브라운 노이즈 오디오 테스트 도구",
+				"en": "Pro audio test tool for tones, sweeps, white, pink, and brown noise."
+			},
+			"icon": "frequency_generator.png"
+		},
+		{
+			"appId": "com.lfc.apps.rta_audio_analyzer",
+			"name": {
+				"ko": "RTA 오디오 분석기",
+				"en": "RTA Audio Analyzer"
+			},
+			"desc": {
+				"ko": "전문가용 실시간 RTA로 마이크 주파수, Peak/RMS, 옥타브 밴드를 분석하세요",
+				"en": "Professional real-time RTA with microphone spectrum, Peak/RMS, and octave bands."
+			},
+			"icon": "rta_audio_analyzer.png"
+		},
+		{
+			"appId": "com.lfc.apps.smartphone_sensor_tester",
+			"name": {
+				"ko": "스마트폰 센서 테스터",
+				"en": "Smartphone Sensor Tester"
+			},
+			"desc": {
+				"ko": "가속도계, 자이로, 근접, 조도 센서와 화면 색상을 빠르게 테스트",
+				"en": "Test phone sensors and screen colors with live values and device details."
+			},
+			"icon": "smartphone_sensor_tester.png"
+		},
+		{
+			"appId": "com.lfc.apps.morse_code_decoder",
+			"name": {
+				"ko": "모스 부호 번역기 : 소리 해독",
+				"en": "Morse Code : Audio Decoder"
+			},
+			"desc": {
+				"ko": "텍스트를 모스부호로 번역해 소리·플래시로 보내고, 마이크로 해독하세요",
+				"en": "Translate Morse code, send it by sound or flash, and decode audio with your mic"
+			},
+			"icon": "morse_code_decoder.png"
 		}
 	]
 }
